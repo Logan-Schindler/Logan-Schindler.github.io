@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home-hero">Home</a></li>
+                <li><a href="#home-about">About</a></li>
+                <li><a href="#home-portfolio">Work </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home-hero" class="home-hero">
+        <div class="container">
+            <h1>Personal Portfolio</h1>
+            <!-- Could also use button but this is how tutorial does it -->
+            <a href="https://github.com/Logan-Schindler" class="button button-accent">Github</a>
+        </div>
+
+    </section>
+
+        <section id="home-about" class="home-about">
+            <div class="home-about-textbox">
+                <!-- Update description -->                
+                <fieldset><legend><h2>Who Am I?</h2></legend>
+                    <p>
+                        Graduated Magna Cum Laude from Gustavus Adolphus College, majoring in Mathematics and Computer Science. 
+                        At Gustavus, I swam for four years and was a team captain. During that time, I was Academic All-Conference three times. 
+                        I'm looking to be a software developer, and my guiding principles are to be clean and organized in my work. 
+                    </p>
+                </fieldset>
+            </div>
+        </section>
+ 
+
+    <section id="home-portfolio" class="portfolio">
+        <h2>My Work</h2>
+
+        <!-- Portfolio item 1 -->
+        <figure class="portfolio-item">
+            <img src="./img/Tennis Momentum Abstract.png" alt="item 1">
+            <figcaption class="portfolio-desc">
+                <p>Co-wrote mathematical paper about momentum in tennis matches to measure flow of play and player performance</p>
+                <a href="https://github.com/Logan-Schindler/Tennis-Momentum-Project/tree/main" class="button button-accent button-small">Project Details</a>
+            </figcaption>
+        </figure>
+
+        <!-- Portfolio item 2 -->
+        <figure class="portfolio-item">
+            <img src="./img/Tennis Stat Tracker.png" alt="item 2">
+            <figcaption class="portfolio-desc">
+                <p>Created Android Tennis Stat Tracker Using Kotlin and Google's Firebase Realtime Database</p>
+                <a href="https://github.com/TennisTracker/TennisTracker" class="button button-accent button-small">Project Details</a>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2><u>Add on LinkedIn</u></h2>
+            <!-- Could also use button but this is how tutorial does it -->
+            <a href="https://www.linkedin.com/in/logan-schindler-18a084255/" class="button button-accent linkedin">in</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-quote">
+                <p>"<i>We who cut mere stones must always be envisioning cathedrals</i>"</p> <p>-Medieval Quarry Worker Creed</p>
+            </div>
+            <button id="quoteButton" class="button button-accent button-small">New Quote</button>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

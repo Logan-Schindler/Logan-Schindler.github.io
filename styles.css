@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.button{
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; 
+    padding: .5rem;
+}
+.button-accent{
+    color: #f2dd23;
+    background-color: #42423f;
+    border: 2px solid #f2dd23;
+    border-radius: .5rem;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    background-color: #676766;
+}
+
+@media (min-width: 60rem){
+    .button{
+        font-size: 1.5rem;
+    }
+}
+
+.button-small{
+    font-size: .6rem;
+}
+
+/* Header */
+/* Tempted to make it a fixed header*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:fixed; 
+    background: linear-gradient(#f2dd23,black);
+    border-bottom: .35em solid black;
+    left:0;
+    right: 0;
+    height: 4rem;
+    z-index: 999;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li{
+    margin: 0 6vw;
+    border-radius: .5em;
+    background-color: white;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    border: .15em solid black;
+    border-radius: .5em;
+    padding: 0 .2em;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover,
+nav a:focus{
+    background-color: #252525;
+
+}
+
+/* Home Hero */
+
+.home-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/Vic\ Gustafuson\ Pool.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-shadow: 0 0 2rem black;
+}
+
+.home-hero a{
+    box-shadow: 0 0 3rem rgba(0,0,0,.5);
+}
+
+@media (min-width: 60rem){
+    .home-hero{
+        height: 100vh;
+        padding-top: 10rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
+
+/* Home About*/
+
+.home-about-textbox{
+    background-color: #181818;
+    padding: 2rem;
+    width: 100vw;
+    color: white;
+}
+
+.home-about-textbox h2 {
+    color: #f2dd23;
+}
+
+@media (min-width: 60rem){
+    .home-about{
+        /* Swap with swim photo */
+        background-image: url(./img/Logan\ Pikes\ Peak.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        border: 3px solid black;
+
+    }
+    .home-about-textbox{
+        position: relative;
+        bottom: 10%;
+        left: 55%;
+        width: 40%;
+        border: 2px solid black;
+        border-radius: .5rem;
+        box-shadow: 0 0 3em rgba(0,0,0,.3);
+    }
+    .home-about-textbox h2{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 80rem){
+    .home-about{
+        height: 100vh;
+    }
+}
+
+fieldset{
+    margin-top: -1em;
+    border: 2px solid #f2dd23;
+}
+
+/* Portfolio */
+
+.portfolio h2{
+    font-size: 2rem;
+}
+
+.portfolio-item{
+    border-top: 2px solid black;
+    padding: .5rem 0;
+}
+
+/* CTA */
+.cta{
+    background-color: #181818;
+    padding: 1em 0; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.cta h2{
+    position: relative;
+    top: -.5em;
+    color: #f2dd23;
+}
+
+.linkedin{
+    font-family: Myriad, sans-serif;
+    text-transform: lowercase;
+}
+
+/* Quote Section */
+
+.footer-quote{
+    font-size: 1.5em;
+}
