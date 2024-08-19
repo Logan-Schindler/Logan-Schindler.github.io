@@ -104,7 +104,7 @@ nav a:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/Vic\ Gustafuson\ Pool.jpg);
+    background-image: url(./Vic\ Gustafuson\ Pool.jpg);
     background-position: center;
     background-size: cover;
     padding: 10em 0;
@@ -149,7 +149,7 @@ h1{
 @media (min-width: 60rem){
     .home-about{
         /* Swap with swim photo */
-        background-image: url(./img/Logan\ Pikes\ Peak.jpg);
+        background-image: url(./Logan\ Pikes\ Peak.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
