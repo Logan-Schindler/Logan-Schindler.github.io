@@ -17,7 +17,7 @@ const newQuote = ()=>{
     //Clear the existing
     quoteText.innerHTML = "";
 
-    //Select random quote 
+    //Select random quote but don't repeat 
     let randInt = Math.floor(Math.random() * 6);
     while(randInt === quoteNum){
         randInt = Math.floor(Math.random() * 6);
