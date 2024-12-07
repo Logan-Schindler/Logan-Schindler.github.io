@@ -9,7 +9,8 @@ const quotes=[
     ["You can’t put a limit on anything. The more you dream, the farther you get.","-Michael Phelps"],
     ["I think sometimes in life the biggest challenges end up being the best things that happen in your life.","-Tom Brady"],
     ["Technology is a gift of God. After the gift of life, it is perhaps the greatest of God’s gifts. It is the mother of civilizations, of arts and of sciences.","-Freeman Dyson"],
-    ["Programming isn’t about what you know; it’s about what you can figure out.","-Chris Pine"]
+    ["Programming isn’t about what you know; it’s about what you can figure out.","-Chris Pine"],
+    ["I think that’s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.","-Elon Musk"]
 ];
 
 //Display new quote
